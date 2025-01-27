@@ -47,4 +47,4 @@ While over 90% of the models predictions matched ChatGpt's, some of them, specif
 ### Future Work
 1. The original dataset will be expanded to include more diverse symptom descriptions and incorporate symptom severity
 2. Zero-shot learning will be incorporated to predict diseases not present in the training data
-3. Model will be integrated with ChatGPT to enhance interactivity in the user experience
+3. The model will be integrated with ChatGPT to enhance interactivity in the user experience
