@@ -1,5 +1,5 @@
 # Disease-Prediction-with-NLP
-This is an ongoing academic project turned personal project to create an interactive system that uses NLP patient symptom descriptions to predict most likely disease with associated likelihood. It leverages information from a Disease Oncology, actual free-text patient symptom descriptions and advanced BERT models to do so. I've added a breakdown of the key technologies and libraries used and a summary of the project so far.
+This is an ongoing  project to create an interactive system that uses NLP patient symptom descriptions to predict most likely disease with associated likelihood. It leverages information from a Disease Oncology, actual free-text patient symptom descriptions and advanced BERT models to do so. I've added a breakdown of the key technologies and libraries used and a summary of the project so far.
 
 ## Key Technologies and Libraries
 1. Base Libararies:
