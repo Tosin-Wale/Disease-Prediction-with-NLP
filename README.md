@@ -39,12 +39,12 @@ The core of the project’s machine learning work revolved around both classical
 
 As an added feature, I tried to integrate a disease ontology containing structured disease knowledge from ontologies to improve the model's understanding of the relationships between symptoms and diseases. The results showed that pretrained embeddings and fine-tuned deep learning models significantly outperformed the traditional benchmarks, achieving high accuracy, precision, and recall, highlighting how a combination of machine learning, domain-specific knowledge, and creative data strategies can make a big impact in biomedical NLP.
 
-There’s potential to expand the project further by integrating zero-shot learning, enabling the system to predict diseases it hasn’t seen in the training data. At it's current state, I have benchmarked the model against established tools like WebMD and ChatGPT to see how it stacks up against industry standards and it's predictions are on par with ChatGPTS Medical Diagnosis assistant. Overall, this work showcases the power of modern NLP in solving real-world healthcare challenges.
+There’s potential to expand the project further by integrating zero-shot learning, enabling the system to predict diseases it hasn’t seen in the training data. At it's current state, I have benchmarked the model against established tools like WebMD and OpenAI models to see how it stacks up against industry standards and it's predictions are on par with OpenAI modelsS Medical Diagnosis assistant. Overall, this work showcases the power of modern NLP in solving real-world healthcare challenges.
 
 ### Findings and Results
-While over 90% of the models predictions matched ChatGpt's, some of them, specifically the less detailed patient symptom descriptions got predictions for diseases on the extreme end of the symptoms. E.g A patient who has reported a headache and fever with no other information provided could get a prediction for an 85% chance of hypertension. While these could be symptoms of hypertension, they are more likely to be other symptoms and hypertension would be an extreme case of those symptoms.
+While over 90% of the models predictions matched the most recent OpenAI model Outputs, some of them, specifically the less detailed patient symptom descriptions got predictions for diseases on the extreme end of the symptoms. E.g A patient who has reported a headache and fever with no other information provided could get a prediction for an 85% chance of hypertension. While these could be symptoms of hypertension, they are more likely to be other symptoms and hypertension would be an extreme case of those symptoms.
 
 ### Future Work
 1. The original dataset will be expanded to include more diverse symptom descriptions and incorporate symptom severity
 2. Zero-shot learning will be incorporated to predict diseases not present in the training data
-3. The model will be integrated with ChatGPT to enhance interactivity in the user experience
+3. The model will be integrated with OpenAI models to enhance interactivity in the user experience
